@@ -21,6 +21,7 @@ public class Lab {
      * Check out this guide on throwing exceptions: https://rollbar.com/guides/java/how-to-throw-exceptions-in-java/#
      */
     public void mustThrow() {
-
+        int[] arr = {1, 2, 3};
+        System.out.println(arr[arr.length + 1]);
     }
 }
